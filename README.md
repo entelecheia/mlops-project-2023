@@ -5,7 +5,7 @@ MLOps Team Project for the course "Machine Learning Systems Design" at the Cheju
 ## Team Members
 
 - [Your Name](github.com/username)
--
+- [oh si won](https://github.com/siwon12)
 
 ## Project Description
 
