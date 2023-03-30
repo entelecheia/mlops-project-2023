@@ -6,3 +6,15 @@ MLOps Team Project for the course "Machine Learning Systems Design" at the Cheju
 
 - [Your Name](github.com/username)
 -
+
+## Project Description
+
+## Project Plan
+
+## Project Progress
+
+## Project Results
+
+## Conclusion
+
+## References
