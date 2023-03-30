@@ -4,8 +4,8 @@ MLOps Team Project for the course "Machine Learning Systems Design" at the Cheju
 
 ## Team Members
 
-- [Your Name](github.com/username)
-- [Young Joon Lee](https://github.com/entelecheia)
+- [김지연](https://github.com/202021013)
+- [oh si won](https://github.com/siwon12)
 
 ## Project Description
 
