@@ -9,6 +9,8 @@ MLOps Team Project for the course "Machine Learning Systems Design" at the Cheju
 
 ## Project Description
 
+This project is about the development of a machine learning system for the prediction of the number of visitors.
+
 ## Project Plan
 
 ## Project Progress
