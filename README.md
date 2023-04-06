@@ -4,7 +4,7 @@ MLOps Team Project for the course "Machine Learning Systems Design" at the Cheju
 
 ## Team Members
 
-- [kim ji yeon](https://github.com/202021013)
+- [Kim ji yeon](https://github.com/202021013)
 - [oh si won](https://github.com/siwon12)
 
 ## Project Description
