@@ -1,0 +1,29 @@
+# Changes here will be overwritten by Copier; do NOT edit manually
+_commit: v0.5.1
+_src_path: gh:entelecheia/hyperfast-python-template
+author: Young Joon Lee
+build_and_release: true
+code_template_answers_file: .copier-hyfi-config.yaml
+code_template_source: ''
+copyright_year: 2023
+documentaion_tool: jupyter-book
+documentation_url: https://entelecheia.github.io/mlops-project-2023
+email: entelecheia@hotmail.com
+favicon_path: ''
+friendly_name: MLOps Team Project 2023
+github_repo_name: mlops-project-2023
+github_username: entelecheia
+google_analytics_id: ''
+logo_path: ''
+package_name: mlops2023
+project_description: This project is about the development of a machine learning system
+    for the prediction of the number of visitors.
+project_license: MIT
+project_name: mlops-project-2023
+project_short_description: MLOps Team Project for the course "Machine Learning Systems
+    Design" at the Cheju Halla University.
+upload_to_release: true
+upload_to_repository: false
+use_launch_buttons: true
+use_source_code_skeleton: true
+

@@ -1,12 +1,14 @@
 # MLOps Team Project 2023
 
-
+[![pypi-image]][pypi-url]
 [![version-image]][release-url]
 [![release-date-image]][release-url]
 [![license-image]][license-url]
 [![jupyter-book-image]][docs-url]
 
 <!-- Links: -->
+[hyperfast python template]: https://github.com/entelecheia/hyperfast-python-template
+
 [pypi-image]: https://img.shields.io/pypi/v/mlops-project-2023
 [license-image]: https://img.shields.io/github/license/entelecheia/mlops-project-2023
 [license-url]: https://github.com/entelecheia/mlops-project-2023/blob/main/LICENSE
@@ -26,7 +28,7 @@ MLOps Team Project for the course "Machine Learning Systems Design" at the Cheju
 
 - Documentation: [https://entelecheia.github.io/mlops-project-2023][docs-url]
 - GitHub: [https://github.com/entelecheia/mlops-project-2023][repo-url]
-
+- PyPI: [https://pypi.org/project/mlops-project-2023][pypi-url]
 
 This project is about the development of a machine learning system for the prediction of the number of visitors.
 
@@ -41,3 +43,8 @@ Contributions are welcome! Please see the [contributing guidelines] for more inf
 ## License
 
 This project is released under the [MIT License][license-url].
+
+## Table of Contents
+
+```{tableofcontents}
+```
