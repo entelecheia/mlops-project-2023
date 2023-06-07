@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; do NOT edit manually
-_commit: v0.5.1
+_commit: v0.8.5
 _src_path: gh:entelecheia/hyperfast-python-template
 author: Young Joon Lee
 build_and_release: true
@@ -20,8 +20,8 @@ project_description: This project is about the development of a machine learning
     for the prediction of the number of visitors.
 project_license: MIT
 project_name: mlops-project-2023
-project_short_description: MLOps Team Project for the course "Machine Learning Systems
-    Design" at the Cheju Halla University.
+project_short_description: MLOps Team Project for the course `Machine Learning Systems
+    Design` at the Cheju Halla University.
 upload_to_release: true
 upload_to_repository: false
 use_launch_buttons: true

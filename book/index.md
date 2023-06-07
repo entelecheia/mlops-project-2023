@@ -24,7 +24,7 @@
 [contributing guidelines]: https://github.com/entelecheia/mlops-project-2023/blob/main/CONTRIBUTING.md
 <!-- Links: -->
 
-MLOps Team Project for the course "Machine Learning Systems Design" at the Cheju Halla University.
+MLOps Team Project for the course `Machine Learning Systems Design` at the Cheju Halla University.
 
 - Documentation: [https://entelecheia.github.io/mlops-project-2023][docs-url]
 - GitHub: [https://github.com/entelecheia/mlops-project-2023][repo-url]

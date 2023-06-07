@@ -1,7 +1,7 @@
 __package_name__: "mlops2023"
 name: "MLOps Team Project 2023"
 authors: "Young Joon Lee <entelecheia@hotmail.com>"
-description: "MLOps Team Project for the course "Machine Learning Systems Design" at the Cheju Halla University."
+description: "MLOps Team Project for the course `Machine Learning Systems Design` at the Cheju Halla University."
 homepage: "https://entelecheia.github.io/mlops-project-2023"
 license: "MIT"
 version: "0.0.0"
