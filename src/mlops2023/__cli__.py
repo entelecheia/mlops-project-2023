@@ -2,13 +2,18 @@
 
 # Importing the libraries
 
+from cleo.application import Application
+
 from . import __version__
+from .models.download import DownloadCommand
 
 
-def main() -> None:
-    """This is the cli function of the package"""
-    print("This is the cli function of the package")
-    print(f"The version of the package is: {__version__}")
+app = Application("mlops2023", __version__)
+app.add(DownloadCommand())
+
+
+def main():
+    app.run()
 
 
 if __name__ == "__main__":
