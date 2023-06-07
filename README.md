@@ -8,10 +8,10 @@
 
 <!-- Links: -->
 [pypi-image]: https://img.shields.io/pypi/v/mlops-project-2023
-[license-image]: https://img.shields.io/github/license/entelecheia/mlops-project-2023
+[license-image]: https://img.shields.io/github/license/chu-ise/mlops-project-2023
 [license-url]: https://github.com/chu-ise/mlops-project-2023/blob/main/LICENSE
-[version-image]: https://img.shields.io/github/v/release/entelecheia/mlops-project-2023?sort=semver
-[release-date-image]: https://img.shields.io/github/release-date/entelecheia/mlops-project-2023
+[version-image]: https://img.shields.io/github/v/release/chu-ise/mlops-project-2023?sort=semver
+[release-date-image]: https://img.shields.io/github/release-date/chu-ise/mlops-project-2023
 [release-url]: https://github.com/chu-ise/mlops-project-2023/releases
 [jupyter-book-image]: https://jupyterbook.org/en/stable/_images/badge.svg
 
