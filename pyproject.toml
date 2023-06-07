@@ -4,8 +4,8 @@ version = "0.0.0"
 description = "MLOps Team Project for the course `Machine Learning Systems Design` at the Cheju Halla University."
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
-homepage = "https://entelecheia.github.io/mlops-project-2023"
-repository = "https://github.com/entelecheia/mlops-project-2023"
+homepage = "https://chu-ise.github.io/mlops-project-2023"
+repository = "https://github.com/chu-ise/mlops-project-2023"
 readme = "README.md"
 packages = [{ include = "mlops2023", from = "src" }]
 
