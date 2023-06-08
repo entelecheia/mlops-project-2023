@@ -3,6 +3,8 @@
         "ms-python.black-formatter",
         "ms-python.isort",
         "tamasfe.even-better-toml",
-        "foxundermoon.shell-format"
+        "foxundermoon.shell-format",
+        "eamodio.gitlens",
+        "github.vscode-pull-request-github"
     ]
 }
