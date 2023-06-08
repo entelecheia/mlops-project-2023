@@ -2,14 +2,10 @@ import time
 
 import grpc
 import numpy as np
-from locust import task
-from locust import User
-from locust import between
-from locust import HttpUser
-from sklearn import datasets
-
 from bentoml.grpc.v1 import service_pb2 as pb
 from bentoml.grpc.v1 import service_pb2_grpc as services
+from locust import HttpUser, User, between, task
+from sklearn import datasets
 
 test_data = datasets.load_iris().data
 num_of_rows = test_data.shape[0]

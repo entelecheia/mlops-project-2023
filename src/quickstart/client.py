@@ -1,7 +1,6 @@
 import logging
 
 import numpy as np
-
 from bentoml import HTTPServer
 from bentoml.client import Client
 
