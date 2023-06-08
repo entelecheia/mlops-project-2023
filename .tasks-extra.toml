@@ -2,6 +2,15 @@
 shell = """
     mkdir -p src/bentochain/ssl
     cd src/bentochain/ssl
-    openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes
+    openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes \
+        -subj '/CN=localhost' -extensions EXT -config <( \
+        printf "[dn]\nCN=localhost\n[req]\ndistinguished_name = dn\n[EXT]\nsubjectAltName=DNS:localhost\nkeyUsage=digitalSignature\nextendedKeyUsage=serverAuth")
 """
 help = "Generate self-signed SSL certificates for the web server"
+
+[tool.poe.tasks.start-bento-service]
+shell = """
+    cd src/bentochain
+    bentoml serve service:svc --ssl-certfile ssl/cert.pem --ssl-keyfile ssl/key.pem
+"""
+help = "Start the Bento service"
