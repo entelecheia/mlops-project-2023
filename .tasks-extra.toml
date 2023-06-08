@@ -14,3 +14,10 @@ shell = """
     bentoml serve service:svc --ssl-certfile ssl/cert.pem --ssl-keyfile ssl/key.pem
 """
 help = "Start the Bento service"
+
+[tool.poe.tasks.bento-build]
+shell = """
+    cd src/bentochain
+    bentoml build
+"""
+help = "Build the Bento service"
