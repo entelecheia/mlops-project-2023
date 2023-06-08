@@ -1,4 +1,5 @@
 ssl/
+*-checkpoint.ipynb
 
 # hypothesis: https://github.com/HypothesisWorks/hypothesis
 .hypothesis/
