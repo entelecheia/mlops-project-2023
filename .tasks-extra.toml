@@ -1,7 +1,41 @@
+[tool.poe.tasks.add-venv-kernel]
+shell = """
+    ipython kernel install --user --name=mlops-project-2023
+"""
+help = "Add a virtual environment as a Jupyter kernel"
+
+[tool.poe.tasks.list-kenelspecs]
+shell = """
+    jupyter kernelspec list
+"""
+help = "List the Jupyter kernelspecs"
+
+[tool.poe.tasks.remove-venv-kernel]
+shell = """
+    jupyter kernelspec uninstall mlops-project-2023 -y
+"""
+help = "Remove a virtual environment as a Jupyter kernel"
+
 [tool.poe.tasks.generate-ssl-certs]
 shell = """
-    mkdir -p ssl
-    cd ssl
-    openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes
+    mkdir -p src/bentochain/ssl
+    cd src/bentochain/ssl
+    openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes \
+        -subj '/CN=localhost' -extensions EXT -config <( \
+        printf "[dn]\nCN=localhost\n[req]\ndistinguished_name = dn\n[EXT]\nsubjectAltName=DNS:localhost\nkeyUsage=digitalSignature\nextendedKeyUsage=serverAuth")
 """
 help = "Generate self-signed SSL certificates for the web server"
+
+[tool.poe.tasks.start-bento-service]
+shell = """
+    cd src/bentochain
+    bentoml serve service:svc --ssl-certfile ssl/cert.pem --ssl-keyfile ssl/key.pem
+"""
+help = "Start the Bento service"
+
+[tool.poe.tasks.bento-build]
+shell = """
+    cd src/bentochain
+    bentoml build
+"""
+help = "Build the Bento service"
