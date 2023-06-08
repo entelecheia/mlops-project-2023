@@ -1,0 +1,7 @@
+[tool.poe.tasks.generate-ssl-certs]
+shell = """
+    mkdir -p ssl
+    cd ssl
+    openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes
+"""
+help = "Generate self-signed SSL certificates for the web server"
