@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mlops-project-2023"
-version = "0.1.0"
+version = "0.2.0"
 description = "MLOps Team Project for the course `Machine Learning Systems Design` at the Cheju Halla University."
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"

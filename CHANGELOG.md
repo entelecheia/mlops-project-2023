@@ -1,5 +1,16 @@
 <!--next-version-placeholder-->
 
+## v0.2.0 (2023-06-08)
+
+### Feature
+
+* **models:** Add download command and models ([`6051b68`](https://github.com/chu-ise/mlops-project-2023/commit/6051b68b8251fd0588a1b60edc6f582c78a1c83c))
+* **tasks:** Add generate-ssl-certs task ([`cf1faca`](https://github.com/chu-ise/mlops-project-2023/commit/cf1faca9b4f159cdb9b2203b99a890d51854716e))
+
+### Fix
+
+* **env:** Pass --system-site-packages to python3 -m venv ([`7b32619`](https://github.com/chu-ise/mlops-project-2023/commit/7b32619622e85ba546912b59fd679eef0c65cee7))
+
 ## v0.1.0 (2023-06-07)
 
 ### Feature
