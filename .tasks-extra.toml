@@ -4,6 +4,18 @@ shell = """
 """
 help = "Add a virtual environment as a Jupyter kernel"
 
+[tool.poe.tasks.list-kenelspecs]
+shell = """
+    jupyter kernelspec list
+"""
+help = "List the Jupyter kernelspecs"
+
+[tool.poe.tasks.remove-venv-kernel]
+shell = """
+    jupyter kernelspec uninstall mlops-project-2023 -y
+"""
+help = "Remove a virtual environment as a Jupyter kernel"
+
 [tool.poe.tasks.generate-ssl-certs]
 shell = """
     mkdir -p src/bentochain/ssl
