@@ -1,5 +1,4 @@
 ssl/
-src/bentochain/
 
 # hypothesis: https://github.com/HypothesisWorks/hypothesis
 .hypothesis/
