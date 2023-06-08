@@ -7,7 +7,6 @@ from cleo.application import Application
 from . import __version__
 from .models.download import DownloadCommand
 
-
 app = Application("mlops2023", __version__)
 app.add(DownloadCommand())
 
