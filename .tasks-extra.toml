@@ -1,3 +1,9 @@
+[tool.poe.tasks.add-venv-kernel]
+shell = """
+    ipython kernel install --user --name=mlops-project-2023
+"""
+help = "Add a virtual environment as a Jupyter kernel"
+
 [tool.poe.tasks.generate-ssl-certs]
 shell = """
     mkdir -p src/bentochain/ssl
