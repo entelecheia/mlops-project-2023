@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.3.0 (2023-06-08)
+
+### Feature
+
+* Add bento quickstart ([`2830d40`](https://github.com/chu-ise/mlops-project-2023/commit/2830d401e9e5adab032cd07506642d3549cc9df8))
+* Add bentochain source ([`7147251`](https://github.com/chu-ise/mlops-project-2023/commit/7147251351fbc6611d972eae5bb9fba1a5d509bd))
+
 ## v0.2.0 (2023-06-08)
 
 ### Feature
